@@ -1,9 +1,4 @@
 %% Import Script for PoleFigure Data
-%
-% This script was automatically created by the import wizard. You should
-% run the whoole script or parts of it in order to import your data. There
-% is no problem in making any changes to this script.
-
 %% Specify Crystal and Specimen Symmetries
 
 % crystal symmetry
@@ -14,7 +9,7 @@ CS = crystalSymmetry('m-3m', [2.9 2.9 2.9]);
 setMTEXpref('xAxisDirection','north');
 setMTEXpref('zAxisDirection','outOfPlane');
 
-%% Specify File Names
+
 
 % path to files
 pname = 'C:\Users\23727\Desktop\XRD织构数据';
