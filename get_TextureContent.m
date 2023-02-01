@@ -107,37 +107,6 @@ mp.micronBar.length = 100;
 mp.micronBar.backgroundColor = 'k';
 mp.micronBar.lineColor = 'w';
 
-%% %distribution
-
-% x = [1,2,3,4];
-% y1 = [s1*100/s,s10*100/s,s8*100/s,s3*100/s];
-% y = [roundn(y1,-2)];
-% figure();
-% b = bar(x,y,0.91,'EdgeColor','k');
-% hTitle = title('Texture content');
-% hXLable = xlabel('Texture');
-% hYLable = ylabel('Contend (%)');
-% set(gca,'Box','off', ...%边框
-% 'LineWidth',1, ...%线宽
-% 'XGrid','off','YGrid','on', ...%网格
-% 'TickDir','out','TickLength',[.01 .01], ...%刻度
-% 'XMinorTick','off','YMinorTick','off',...%小刻度
-% 'XColor',[.1 .1 .1],'YColor',[.1 .1 .1],...%坐标轴颜色
-% 'XTick',[1:4],...x刻度
-% 'XTickLabel',{'(110)<001>','(411)<14-8>','(111)<11-2>','(100)<021>',''},...
-% 'YTickLabel',{[0:3:15]});
-% for i = 1:1
-%     xtips = b(i).XEndPoints;
-%     ytips = b(i).YEndPoints;
-%     labels = string(b(i).YData);
-%     text(xtips,ytips,labels,'Rotation',0,'HorizontalAlignment','center',...
-%         'VerticalAlignment','bottom','FontName','Arial','FontSize',9)
-% end
-% set(gca,'FontName','Arial','FontSize',10);
-% set([hXLable,hYLable],'FontName','Arial','FontSize',11);
-% set(hTitle,'FontSize',12,'FontWeight','bold');
-% set(gcf,'Color',[1 1 1]);
-
 
 %% calculate grainsize area boundarysize perimiter
 
