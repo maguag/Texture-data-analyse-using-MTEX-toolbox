@@ -8,7 +8,7 @@ fname1 = [pname '\TC-027-2-RD.cpr'];
 ebsd = EBSD.load(fname1,CS,'interface','crc',...
   'convertEuler2SpatialReferenceFrame');
 
-%%
+%% plot grainsize distrubution 
 grains = calcGrains(ebsd('Iron bcc'),'angle',3*degree);
 figure();
 b = histogram(grains.area,15);
